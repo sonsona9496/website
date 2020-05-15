@@ -1,0 +1,308 @@
+/*--------------Rules--------------------------------*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	width:100%;
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+/*-------------------- Start Header------------------*/
+header{
+	background-image:url('../img/com.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	height:550px;
+}
+header nav .container h2{
+	color:#fff;
+	float:left;
+	width:30%;
+	padding-top:20px;
+}
+header nav .container span,
+.form .container .head-form h1 span,
+.form .container form h1 span{
+	color:#ff8c00;
+	font-weight:bold;
+}
+header nav {
+	position:relative;
+}
+header nav .container ul{
+	float:right;
+	list-style:none;
+	position:absolute;
+	left:850px;
+}
+header nav .container ul li{
+	display:inline-block;
+}
+header nav .container ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	display:block;
+	padding-top:20px;
+	padding-right:50px;
+}
+header nav .container ul li .home{
+	color:#ff8c00;
+}
+header .head-menu{
+	text-align:center;
+	margin:100px auto;
+}
+header .head-menu h1{
+	color:#fff;
+}
+header .head-menu p{
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	margin-top:40px;
+}
+header .head-menu .btn1,.btn2{
+	text-transform:uppercase;
+	margin-top:40px;
+	padding:15px;
+	font-size:16px;
+	margin-right:20px;
+	color:#fff;
+	background:none;
+	border:1px solid #eee;
+	cursor:pointer;
+	font-weight:bold;
+}
+header .head-menu .btn2{
+	background-color:#00fff9;
+}
+/*-------------------- End Header------------------*/
+/*-------------------- Start Menu------------------*/
+.menu{
+	width:100%;
+	height:400px;
+}
+.menu .container .section{
+	width:55%;
+	float:left;
+	margin-top:120px;
+}
+.menu .container .section p{
+	margin-top:10px;
+	padding:10px;
+	padding-left:0;
+	font-size:20px;
+	line-height:25px;
+}
+.menu .container img{
+	margin-top:80px;
+	width:45%;
+	float:right;
+	
+}
+/*-------------------- End Menu------------------*/
+/*-------------------- Start Article------------------*/
+.article{
+	width:100%;
+	height:300px;
+	background-color:#222;
+	margin-top:40px;
+}
+.article .container div{
+	float:left;
+	color:#fff;
+	width:30%;
+	margin-top:100px;
+	margin-left:20px;
+	text-align:center;
+}
+.article .container div h1{
+	padding:20px;
+	color:#b12618;
+}
+.article .container div p{
+	padding:10px;
+	line-height:25px;
+}
+/*-------------------- End Article------------------*/
+/*-------------------- Start Section video------------------*/
+.section-video{
+	width:100%;
+	margin-top:0;
+}
+.section-video .container div{
+	width:45%;
+	float:left;
+	margin-top:120px;
+}
+.section-video .container div p{
+	padding:15px 10px 10px 0;
+	line-height:25px;
+}
+.section-video .container div #parg{
+	font-weight:bold;
+}
+.section-video .container video{
+	width:50%;
+	float:right;
+	margin-top:80px;
+}
+/*-------------------- End Section video------------------*/
+/*-------------------- Start Section Creative------------------*/
+.section-creative{
+	width:100%;
+	height:700px;
+	background-color:#eee;
+	float:left;
+}
+.section-creative .container .head-creat{
+	margin-top:130px;
+	text-align:center;
+	
+}
+.section-creative .container .head-creat h1{
+	text-transform:uppercase;
+}
+.section-creative .container .head-creat p{
+	padding-top:20px;
+	font-size:20px;
+	
+}
+.section-creative .container .img-creat figure{
+	float:left;
+	background-color:#fff;
+	padding-bottom:50px;
+	padding-top:30px;
+	width:30%;
+	margin-top:60px;
+	margin-right:20px;
+	text-align:center;
+}
+.section-creative .container .img-creat figure #name{
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:6px;
+	text-transform:uppercase;
+}
+.section-creative .container .img-creat figure img{
+	width:200px;
+	height:200px;
+}
+/*-------------------- End Section Creative------------------*/
+/*-------------------- Start Section Respon------------------*/
+.section-respon{
+	width:100%;
+	height:300px;
+	float:left;
+	margin-top:80px;
+	text-align:center;
+}
+.section-respon .container .menu-respon h1{
+	text-transform:uppercase;
+}
+.section-respon .container .menu-respon p{
+	padding-top:40px;
+	font-size:20px;
+	text-transform:capitalize;
+}
+.section-respon .container .menu-respon button{
+	margin-top:40px;
+	margin-right:20px;
+	padding:15px;
+	background-color:#00fff9;
+	border:none;
+	font-size:20px;
+	color:#fff;
+	text-transform:capitalize;
+}
+/*-------------------- End Section respon------------------*/
+/*-------------------- Start Form------------------*/
+.form{
+	width:100%;
+	height:500px;
+	float:left;
+	background-color:#555;
+}
+.form .container .head-form{
+	margin-top:40px;
+	float:left;
+	width:45%;
+}
+.form .container .head-form h1{
+	margin-top:30px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.form .container .head-form p{
+	margin-top:10px;
+	color:#fff;
+	padding:20px;
+	padding-left:0;
+	font-size:20px;
+	text-transform:capitalize;
+	line-height:25px;
+}
+.form .container .head-form button{
+	margin-top:20px;
+	margin-left:130px;
+	padding:13px;
+	border:none;
+	background-color:#00fff9;
+	font-size:20px;
+	color:#fff;
+	text-transform:capitalize;
+}
+.form .container form{
+	width:45%;
+	height:400px;
+	margin-top:50px;
+	float:right;
+}
+.form .container form h1{
+	text-transform:uppercase;
+	color:#fff;
+	margin-top:20px;
+}
+.form .container form input{
+	display:block;
+	margin-top:30px;
+	width:500px;
+	height:30px;
+}
+.form .container form button{
+	margin-top:30px;
+	margin-left:220px;
+	padding:13px;
+	border:none;
+	background-color:#00fff9;
+	font-size:20px;
+	color:#fff;
+	text-transform:capitalize;
+}
+/*-------------------- End Form------------------*/
+/*-------------------- Start Footer------------------*/
+footer{
+	width:100%;
+	height:100px;
+	float:left;
+	background-color:#333;
+	color:#fff;
+	text-align:center;
+}
+footer .container p{
+	margin-top:40px;
+	font-size:20px;
+}
+footer .container p span{
+	color:#00fff9;
+}
+/*-------------------- End Footer------------------*/
+.clear{
+	clear:both;
+}
